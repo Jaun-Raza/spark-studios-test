@@ -33,5 +33,5 @@ nodemon app.js
 
 The application should now be running locally on http://localhost:3000.
 
-## Database Setup
+# Database Setup
 Ensure MongoDB is running on your local system or configure the app to use your MongoDB connection URI. By default, the app will try to connect to a local MongoDB instance.
