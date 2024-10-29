@@ -1,17 +1,19 @@
 {
-  "dependencies": {
-    "express": "^4.21.1",
-    "nodemon": "^3.1.7"
-  },
-  "name": "backend",
+  "name": "ejs-challenge",
   "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
-  "devDependencies": {},
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^16.4.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.11",
+    "mongoose": "^8.2.2"
+  }
 }

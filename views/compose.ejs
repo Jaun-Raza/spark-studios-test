@@ -1,0 +1,12 @@
+<%- include("partials/header"); -%>
+    <h1 style="font-family: 'Poppins', sans-serif;">Compose</h1>
+    <form class="" action="/compose" method="post">
+      <div class="form-group">
+        <label style="font-family: 'Poppins', sans-serif;">Title</label>
+        <input class="form-control" type="text" name="postTitle" style="font-family: 'Poppins', sans-serif;">
+        <label style="font-family: 'Poppins', sans-serif;">Blog</label>
+        <textarea class="form-control" name="postBody" rows="5" cols="30" style="font-family: 'Poppins', sans-serif;"></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit" name="button" style="font-family: 'Poppins', sans-serif;">Publish</button>
+    </form>
+<%- include("partials/footer"); -%>

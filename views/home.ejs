@@ -1,0 +1,26 @@
+<%- include("partials/header"); -%>
+
+  <h1 style="font-family: 'Poppins', sans-serif;">Spark's Book</h1>
+  <p style="font-family: 'Poppins', sans-serif;">
+    <%= startingContent %>
+  </p>
+
+
+  
+  <div style="border: 1px solid rgba(128, 128, 128, 0.253); border-radius: 5px; padding: 1rem; height: fit-content; margin-bottom: 8rem;">
+    <h1 style="text-align: center; padding-bottom: 1rem;" style="font-family: 'Poppins', sans-serif;">All Blogs</h1>
+    <% posts.forEach(function(post){ %>
+      <h2 style="font-family: 'Poppins', sans-serif;"> 
+        <%=post.title%>
+      </h2>
+      <p style="font-family: 'Poppins', sans-serif;">
+        <%=post.content.substring(0, 100) + " ..." %>
+          <a href="/posts/<%=post.title%>" style="font-family: 'Poppins', sans-serif;">Read More</a>
+      </p>
+      <% }) %>
+    </div>
+
+
+
+
+      <%- include("partials/footer"); -%>
